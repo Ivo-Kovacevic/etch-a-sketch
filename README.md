@@ -1,1 +1,3 @@
-# etch-a-sketch
+Etch-a-Sketch
+
+Etch-a-Sketch is a web-based drawing application inspired by the classic children's toy. It allows users to create colorful artwork by sketching on a virtual grid. The grid is dynamically generated using JavaScript, and the user can use their cursor to draw on the grid. The application provides an interactive and creative experience, offering endless possibilities for artistic expression. It can be run from link in the GitHub repository. Have fun unleashing your imagination with Etch-a-Sketch!
