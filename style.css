@@ -1,12 +1,53 @@
 html, body {
     height: 100%;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: rgb(228, 214, 197);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Carter One', cursive;
+    color: #710dac;
+    margin: 10px 0;
+}
+
+input {
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    margin: 10px 0 20px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(59, 82, 102);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(69, 94, 116);
+    
 }
 
 .container {
-    height: 750px;
-    width: 750px;
-    margin: 0 auto;
-    border: 20px solid red;
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    border: 20px solid rgb(48, 73, 75);
     border-radius: 20px;
     background-color: rgb(190, 190, 190);
     display: flex;
@@ -19,7 +60,11 @@ html, body {
 }
 
 .box {
-    margin: 1px;
     flex: 1;
+    transition: 0.5s;
     background-color: white;
+}
+
+.changeColor {
+    background-color: rgb(10, 15, 10);
 }
